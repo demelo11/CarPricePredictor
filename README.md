@@ -1,13 +1,12 @@
 # CarPricePredictor
 
-Our goal is to create models and present the data in a way that allows us to predict the expected value of a given vehicle based on the dataset.
+The goal of this project is to create a model and present the data in a way that allows us to predict the expected value of a given vehicle based on the dataset.
+
 ## Languages and Libraries:
 Python
 Scikit-Learn
 Tensor Flow 
 Keras
-
-US Cars' data was scraped from AUCTION EXPORT.com. This dataset included information about 28 brands of clean and used vehicles for sale in the US. Twelve features were assembled for each car in the dataset.
 
 Attributes
 1. Price - The sale price of the vehicle in the ad
@@ -25,6 +24,7 @@ Vehicle Identification Number
 11. Condition - time
 12. Country - Country where the car is available for purchase
 
+US Cars' data was scraped from AUCTION EXPORT.com. This dataset included information about 28 brands of clean and used vehicles for sale in the US. Twelve features were assembled for each car in the dataset.
 
 
 ## Task Analysis
