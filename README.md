@@ -3,11 +3,12 @@
 The goal of this project is to create a model and present the data in a way that allows us to predict the expected value of a given vehicle based on the dataset.
 
 ## Languages and Libraries:
-Python
-Scikit-Learn
-Tensor Flow 
-Keras
 
+1. Python
+2. Scikit_learn
+3. Keras
+4. Tensor Flow
+5. 
 Attributes
 1. Price - The sale price of the vehicle in the ad
 2. Years - The vehicle’s registration year
