@@ -31,3 +31,8 @@ US Cars' data was scraped from AUCTION EXPORT.com. This dataset included informa
 ## Task Analysis
 This is a supervised task and the dataset we chose is labeled. Additionally, since we are required to predict a value, it is also a regression task. Further, because we used various factors such as year, model, and brand to predict a singular value (price), it is a multiple regression problem as well as a univariate regression problem. A plain batch learning is required as the dataset is not online and is not continuous.
 After extensive research and testing different models, we discovered that Linear Regression was the perfect model for our specific data.
+
+
+Below is an example of the actual price of a vehicle vs the estimated price of the vehicle
+
+<img width="326" alt="Screenshot 2023-01-27 at 3 16 52 PM" src="https://user-images.githubusercontent.com/122697805/215190184-c7879bd8-cb54-469f-8a0a-081e46f19434.png">
