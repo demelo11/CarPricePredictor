@@ -1,14 +1,13 @@
 # CarPricePredictor
 
-## Our goal is to create models and present the data in a way that allows us to predict the expected value of a given vehicle based on the dataset.
-# Languages and Libraries:
-## Python
-## Scikit-Learn
-## Tensor Flow 
-## Keras
+Our goal is to create models and present the data in a way that allows us to predict the expected value of a given vehicle based on the dataset.
+## Languages and Libraries:
+Python
+Scikit-Learn
+Tensor Flow 
+Keras
 
-## US Cars' data was scraped from AUCTION EXPORT.com. This dataset included information about 28 brands of clean and used vehicles for sale in the US. Twelve features were assembled for each car in the dataset.
-
+US Cars' data was scraped from AUCTION EXPORT.com. This dataset included information about 28 brands of clean and used vehicles for sale in the US. Twelve features were assembled for each car in the dataset.
 
 Attributes
 1. Price - The sale price of the vehicle in the ad
@@ -28,6 +27,6 @@ Vehicle Identification Number
 
 
 
-# Task Analysis
+## Task Analysis
 This is a supervised task and the dataset we chose is labeled. Additionally, since we are required to predict a value, it is also a regression task. Further, because we used various factors such as year, model, and brand to predict a singular value (price), it is a multiple regression problem as well as a univariate regression problem. A plain batch learning is required as the dataset is not online and is not continuous.
 After extensive research and testing different models, we discovered that Linear Regression was the perfect model for our specific data.
